@@ -309,6 +309,7 @@ GameObject:
   - component: {fileID: 1502776570}
   - component: {fileID: 1502776569}
   - component: {fileID: 1502776568}
+  - component: {fileID: 1502776573}
   m_Layer: 0
   m_Name: Cube
   m_TagString: Untagged
@@ -323,7 +324,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1502776567}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 0d39754a762300d45a74080eea304500, type: 3}
   m_Name: 
@@ -404,3 +405,21 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1502776573
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1502776567}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fbe4a415ec9760b4a8b4ccf8b2232446, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CityName: Bogota
+  madera: 0
+  piedra: 0
+  oro: 0
+  casas: 0
+  poblacion: 0
