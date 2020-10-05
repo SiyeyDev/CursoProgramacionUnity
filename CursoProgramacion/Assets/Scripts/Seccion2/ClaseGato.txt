@@ -24,13 +24,12 @@ public class Gato
         
     }
 
-    private bool ActualizarNumeroID(int factorEnetro){
-    
-        ID = ObtenerAños()*factorEnetro;
-        return ID >= 1000;
+    private void ActualizarNumeroID(int factorEnetro){
+        ID = *factorEnetro;
+        bool ID4cifras = ID>999;
     }
 
-    public void PonerChip(int x, int y){
+    public PonerChip(int x, int y){
         tieneChip =true;
 
         ActualizarNumeroID(x+y);
