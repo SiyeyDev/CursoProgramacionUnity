@@ -1,0 +1,39 @@
+public class Gato
+{
+    public static int patasGato =4;
+
+    public string NombreGato;
+    public int MesesGato;
+    public bool tieneChip;
+    private int ID;
+
+    public Gato(string n,int m,bool c)
+    {
+        NombreGato = n;
+        MesesGato = m;
+        tieneChip = c;
+    }
+
+    public void CambiarNombre(string n){
+
+       NombreGato = n;
+    }
+
+    private  ObtenerAños(){
+       return MesesGato/12;
+        
+    }
+
+    private void ActualizarNumeroID(int factorEnetro){
+        ID = *factorEnetro;
+        bool ID4cifras = ID>999;
+    }
+
+    public PonerChip(int x, int y){
+        tieneChip =true;
+
+        ActualizarNumeroID(x+y);
+
+    }
+
+}
